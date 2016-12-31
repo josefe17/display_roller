@@ -4,7 +4,7 @@
 #include <xc.h>
 #include "config.h"
 #include "stdio_7segment.h"
-#include "roms.h"
+//#include "roms.h" //External messages
 
 /*Update flag values*/
 #define UPDATE 1
