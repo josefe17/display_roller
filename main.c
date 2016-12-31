@@ -23,7 +23,7 @@ inline void check_end (void);
 inline void set_data (unsigned char);
 void update_output_buffers(unsigned char*);
 
-#ifndef ROMS_H
+#ifndef ROMS_H //Allows external messages
 const unsigned char message[] = "0123456789 \0";
 #endif
 
